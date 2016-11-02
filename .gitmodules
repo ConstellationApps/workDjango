@@ -1,0 +1,3 @@
+[submodule "SimpleInventory"]
+	path = SimpleInventory
+	url = git@github.com:SimpleOrgApps/SimpleInventory.git
