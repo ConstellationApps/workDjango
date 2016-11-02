@@ -4,3 +4,6 @@
 [submodule "SimpleVote"]
 	path = SimpleVote
 	url = git@github.com:SimpleOrgApps/SimpleVote.git
+[submodule "SimpleScroller"]
+	path = SimpleScroller
+	url = git@github.com:SimpleOrgApps/SimpleScroller.git
