@@ -7,3 +7,6 @@
 [submodule "SimpleScroller"]
 	path = SimpleScroller
 	url = git@github.com:SimpleOrgApps/SimpleScroller.git
+[submodule "SimpleBase"]
+	path = SimpleBase
+	url = git@github.com:SimpleOrgApps/SimpleBase.git
