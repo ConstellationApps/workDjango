@@ -1,12 +1,12 @@
-[submodule "SimpleInventory"]
-	path = SimpleInventory
-	url = git@github.com:SimpleOrgApps/SimpleInventory.git
-[submodule "SimpleVote"]
-	path = SimpleVote
-	url = git@github.com:SimpleOrgApps/SimpleVote.git
-[submodule "SimpleScroller"]
-	path = SimpleScroller
-	url = git@github.com:SimpleOrgApps/SimpleScroller.git
-[submodule "SimpleBase"]
-	path = SimpleBase
-	url = git@github.com:SimpleOrgApps/SimpleBase.git
+[submodule "Inventory"]
+	path = Inventory
+	url = git@github.com:ConstellationApps/Inventory.git
+[submodule "Vote"]
+	path = Vote
+	url = git@github.com:ConstellationApps/Vote.git
+[submodule "Scroller"]
+	path = Scroller
+	url = git@github.com:ConstellationApps/Scroller.git
+[submodule "Base"]
+	path = Base
+	url = git@github.com:ConstellationApps/Base.git

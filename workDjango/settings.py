@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'SimpleBase',
-    'SimpleInventory',
-    'SimpleVote',
+    'Base',
+    'Inventory',
+    'Vote',
 ]
 
 MIDDLEWARE = [

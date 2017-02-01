@@ -20,7 +20,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^order/', include('SimpleInventory.urls')),
-    url(r'^vote/', include('SimpleVote.urls')),
-    url(r'', include('SimpleBase.urls')),
+    url(r'^order/', include('Inventory.urls')),
+    url(r'^vote/', include('Vote.urls')),
+    url(r'', include('Base.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
