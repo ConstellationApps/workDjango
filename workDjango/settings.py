@@ -27,8 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_URL = '/login'
 
-# Application definition
+
+#Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,9 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Base',
-    'Inventory',
-    'Vote',
+    'constellation_base',
+    'constellation_orderboard',
 ]
 
 MIDDLEWARE = [
