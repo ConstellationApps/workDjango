@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('constellation_base.urls')),
     url(r'^orderboard/', include('constellation_orderboard.urls')),
+    url(r'^devicemanager/', include('constellation_devicemanager.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

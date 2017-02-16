@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'constellation_base',
     'constellation_orderboard',
+    'constellation_devicemanager',
 ]
 
 MIDDLEWARE = [
