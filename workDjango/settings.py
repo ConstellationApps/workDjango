@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'constellation_base',
     'constellation_orderboard',
     'constellation_devicemanager',
+    'constellation_vote',
 ]
 
 MIDDLEWARE = [
