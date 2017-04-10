@@ -25,4 +25,5 @@ urlpatterns = [
     url(r'^devicemanager/', include('constellation_devicemanager.urls')),
     url(r'^vote/', include('constellation_vote.urls')),
     url(r'^forms/', include('constellation_forms.urls')),
+    url(r'^tickets/', include('constellation_ticketbox.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

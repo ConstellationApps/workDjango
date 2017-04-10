@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    'django.contrib.humanize',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'constellation_devicemanager',
     'constellation_vote',
     'constellation_forms',
+    'constellation_ticketbox',
 ]
 
 MIDDLEWARE = [
